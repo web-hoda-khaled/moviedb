@@ -1,0 +1,40 @@
+.home-content h2{
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.home-content p{
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+
+.home-content {
+ position: relative;
+}
+
+.home-content::after{
+ content: "";
+ position: absolute;
+ bottom: 120%;
+ left: 0;
+ width: 25%;
+ height: 2px;
+ background-color: #a8a8a83d;
+
+}
+
+.home-content::before{
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ width: 100%;
+ height: 2px;
+ background-color: #a8a8a83d;
+
+}
+
+.loading-screen{
+ position: fixed;
+ z-index: 999999999999;
+}

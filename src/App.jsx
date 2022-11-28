@@ -85,11 +85,9 @@ const router = createBrowserRouter([
     {path: "show" , element: <ProtectedRoute><Show/></ProtectedRoute>},
     {index: true,  element: <Login getInformationUser={getInformationUser}/>},
     {path: "details" , element: <ProtectedRoute><Details /></ProtectedRoute> ,children:[
-   
         {path:":tybe"  ,children:[
           {path: ":id"}
         ]}
-  
     ]},
     {path: "person-details" , element: <ProtectedRoute><PersonDetails/></ProtectedRoute>, children:[
         {path:":id"}

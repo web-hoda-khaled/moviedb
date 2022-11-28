@@ -50,14 +50,16 @@ let {id , tybe}=useParams()
 
      <div className="col-md-4 ">
          <div className="details-img">
-          <img src={'https://image.tmdb.org/t/p/w500'+details.poster_path} className="w-100" alt="" />
+          <img src={'https://image.tmdb.org/t/p/w500'+details.poster_path} className="w-100 mb-3" alt="" />
          </div>
       </div>
       <div className="col-md-8">
        <div className="details-info">
-         <h2>{details.title==undefined? details.name : details.title}</h2>
+         <h2 >{details.title==undefined? details.name : details.title}</h2>
           <h5 className='my-3'>{details.tagline}</h5>
-         {details.genres?.map( (genre, idx) =>         <span key={idx} className='bg-info px-3 my-3 py-2 rounded-3  me-2'>{genre.name}</span>
+
+
+         {details.genres?.map( (genre, idx) =>         <span key={idx} className='bg-info p-2 rounded-3 m-2 d-inline-block'>{genre.name}</span>
  )}
 
         <h4 className='mt-5 mb-3'>Vote : {details.vote_average}</h4>

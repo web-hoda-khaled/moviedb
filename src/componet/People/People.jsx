@@ -52,7 +52,7 @@ return (
      <figure className='position-relative'>
      <img src={ (person.profile_path !=null? 'https://image.tmdb.org/t/p/w500'+ person.profile_path : "././img/5.jpg")} className="w-100 " alt='img'/>
      </figure>
-     <h6 className='mt-1'>{person.name}</h6>
+     <h6 className='mt-2'>{person.name}</h6>
 
    </div>
   </Link>

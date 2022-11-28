@@ -27,7 +27,7 @@ async function trendingMovie(){
 
 return (
  < >
- <div className='bg-color'>
+ <div className='bg-color '>
    { allmovie ==undefined?       <section className="loading-screen bg-color  w-100">
 
    <Helmet>
@@ -55,7 +55,7 @@ return (
      </figcaption> : ""}
 
      </figure>
-     <h6 className='mt-1'>{movie.title}</h6>
+     <h6 className='mt-2'>{movie.title}</h6>
 
    </div>
 

@@ -61,7 +61,7 @@ async function trendingTvShow(){
   <div key={index} className="col-md-2">
     <Link to={"/details/movie/"  + movie.id} >
     <div className="inner-home ">
-        <figure className='position-relative'>
+        <figure className='position-relative '>
         <img src={'https://image.tmdb.org/t/p/w500'+movie.poster_path} className="w-100" alt='img'/>
 
         {movie.vote_average >5? 
@@ -70,7 +70,7 @@ async function trendingTvShow(){
         </figcaption> : ""}
 
         </figure>
-        <h6 className='mt-1'>{movie.title}</h6>
+        <h6 className='mt-2'>{movie.title}</h6>
 
       </div>
     
@@ -101,7 +101,7 @@ async function trendingTvShow(){
         </figcaption> : ""}
 
         </figure>
-        <h6 className='mt-1'>{td.name}</h6>
+        <h6 className='mt-2'>{td.name}</h6>
 
       </div>
     </Link>

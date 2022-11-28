@@ -52,7 +52,7 @@ return (
      </figcaption> : ""}
 
      </figure>
-     <h6 className='mt-1'>{td.name}</h6>
+     <h6 className='mt-2'>{td.name}</h6>
 
    </div>
   </Link>

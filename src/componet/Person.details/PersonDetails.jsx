@@ -58,7 +58,7 @@ export default function PersonDetails() {
   
        <div className="col-md-4 ">
            <div className="details-img">
-            <img src={'https://image.tmdb.org/t/p/w500'+ person_details.profile_path}  className="w-100" alt="img" />
+            <img src={'https://image.tmdb.org/t/p/w500'+ person_details.profile_path}  className="w-100 mb-3" alt="img" />
            </div>
         </div>
         <div className="col-md-8">

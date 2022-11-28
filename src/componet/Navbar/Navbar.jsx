@@ -51,10 +51,6 @@ export default function Navbar({userData , deleteUser}) {
 
       </ul>
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
-      <li className="nav-item me-5">
-          
-        <input type="text" placeholder='serch' className='form-control rounded-5' />
-        </li>
       <li className="nav-item me-3">
           <i className='fa-brands fa-facebook-f fa-xl me-3'></i>
           <i className='fa-brands fa-spotify fa-xl me-3'></i>

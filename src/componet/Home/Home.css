@@ -38,3 +38,35 @@
  position: fixed;
  z-index: 999999999999;
 }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ .home-content h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+ }
+
+ 
+.home-content p{
+ font-size: 1rem;
+ font-weight: 600;
+}
+
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .home-content h2{
+  font-size: 3rem;
+  font-weight: 600;
+ }
+
+ 
+.home-content p{
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+
+}

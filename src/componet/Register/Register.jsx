@@ -97,7 +97,7 @@ async function sendUser(){
   setisLoding(false)
 
   if (data.message == "success") {
-    navigate("/login")
+    navigate("/")
   }
   else{
     setApiError(data.message)

@@ -77,7 +77,7 @@ const [isLoding, setisLoding] = useState(false)
 
   //fetch api
   async function loginUser(){
-   const {data}= await axios.post("https://route-egypt-api.herokuapp.com/signin" , user);
+   const {data}= await axios.post("https://sticky-note-fe.vercel.app/signin" , user);
    setisLoding(false)
 
    
